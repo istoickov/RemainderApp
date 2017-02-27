@@ -1,0 +1,15 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.antovski.antonio.reminder.MonthView">
+
+    <!-- TODO: Update blank fragment layout -->
+    <CalendarView
+        android:id="@+id/MonthView"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:minDate="01/01/1970" />
+
+</FrameLayout>

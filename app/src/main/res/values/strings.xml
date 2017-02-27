@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Reminder</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="btn_map">Map</string>
+    <string name="btn_clear">Clear</string>
+    <string name="btn_pick">Pick Place</string>
+</resources>
