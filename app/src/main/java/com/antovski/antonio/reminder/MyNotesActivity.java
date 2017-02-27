@@ -8,7 +8,9 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
-public class MyNotesActivity extends AppCompatActivity implements ListFragment.OnFragmentInteractionListener {
+public class MyNotesActivity extends AppCompatActivity implements ListFragment.OnFragmentInteractionListener,
+        MonthView.OnFragmentInteractionListener,
+        weekView.OnFragmentInteractionListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,7 +30,7 @@ public class MyNotesActivity extends AppCompatActivity implements ListFragment.O
     public boolean onOptionsItemSelected(MenuItem item) {
         switch(item.getItemId()){
             case R.id.menuDayView:
-
+                monthView();
                 return true;
             case R.id.menuListView:
                 listFragment();
@@ -37,7 +39,7 @@ public class MyNotesActivity extends AppCompatActivity implements ListFragment.O
                 monthView();
                 return true;
             case R.id.menuWeekView:
-
+                weekView();
                 return true;
             case R.id.menuMapView:
 
@@ -63,6 +65,16 @@ public class MyNotesActivity extends AppCompatActivity implements ListFragment.O
         }
         FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
         ft.replace(R.id.fragmentLayout, mv, "MonthView");
+        ft.commit();
+    }
+
+    public void weekView(){
+        weekView mv = (weekView) getSupportFragmentManager().findFragmentByTag("WeekView");
+        if(mv == null){
+            mv = new weekView();
+        }
+        FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+        ft.replace(R.id.fragmentLayout, mv, "WeekView");
         ft.commit();
     }
 
