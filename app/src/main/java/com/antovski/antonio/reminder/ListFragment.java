@@ -83,7 +83,7 @@ public class ListFragment extends android.support.v4.app.Fragment {
             public void onItemClick(AdapterView<?> parent, View view, final int position, long id) {
                 AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
 
-                builder.setMessage(notes.get(position).getDescription());
+                builder.setMessage(String.format("%s\n%.5f : %.5f", notes.get(position).getDescription(), notes.get(position).getLat(), notes.get(position).getLng()));
                 builder.setTitle(notes.get(position).getName());
 
                 builder.setPositiveButton("Edit Note", new DialogInterface.OnClickListener() {

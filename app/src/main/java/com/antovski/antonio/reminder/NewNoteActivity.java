@@ -21,13 +21,23 @@ public class NewNoteActivity extends AppCompatActivity {
 
         final Context context = this;
 
+        final EditText txtName = (EditText) findViewById(R.id.txtNoteName);
+        final EditText txtDesc = (EditText) findViewById(R.id.txtNoteDescription);
+        final Button btnDate = (Button) findViewById(R.id.buttonDate);
+        final Button btnTime = (Button) findViewById(R.id.buttonTime);
+
         final Note updateNote = (Note) getIntent().getSerializableExtra("Note");
 
         if(updateNote != null){
             update = true;
+            txtName.setText(updateNote.getName());
+            txtDesc.setText(updateNote.getDescription());
+            String oldDate = updateNote.getDate().split(" ")[0];
+            String oldTime = updateNote.getDate().split(" ")[1];
+            btnDate.setText(oldDate);
+            btnTime.setText(oldTime);
         }
 
-        final Button btnDate = (Button) findViewById(R.id.buttonDate);
         btnDate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -36,7 +46,6 @@ public class NewNoteActivity extends AppCompatActivity {
             }
         });
 
-        final Button btnTime = (Button) findViewById(R.id.buttonTime);
         btnTime.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -46,15 +55,35 @@ public class NewNoteActivity extends AppCompatActivity {
         });
 
         final Button btnPlace = (Button) findViewById(R.id.btn_pick);
+
+        final String latlng = getIntent().getStringExtra("Place");
+
+        double lat = 0;
+        double lng = 0;
+
+        if(latlng != null){
+            //lat/lng: (double,double)
+            String pos = latlng.split(" ")[1];
+            String[] parts = pos.substring(1, pos.length() - 1).split(",");
+            lat = Double.parseDouble(parts[0]);
+            lng = Double.parseDouble(parts[1]);
+
+        }
+
         btnPlace.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(NewNoteActivity.this, MapsActivity.class);
+                if(updateNote != null){
+                    intent.putExtra("Note", updateNote);
+                }
                 startActivity(intent);
             }
         });
 
         Button btnAddNote = (Button) findViewById(R.id.btnAdd);
+        final double finalLat = lat;
+        final double finalLng = lng;
         btnAddNote.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -71,13 +100,13 @@ public class NewNoteActivity extends AppCompatActivity {
                     try{
                         if(!update){
                             NOTES_COUNT = db.getNotesCount() + 1;
-                            note = new Note(NOTES_COUNT, name, desc, date, 0, 0);
+                            note = new Note(NOTES_COUNT, name, desc, date, finalLat, finalLng);
                         }else{
                             updateNote.setName(name);
                             updateNote.setDescription(desc);
                             updateNote.setDate(date);
-                            updateNote.setLng(0);
-                            updateNote.setLat(0);
+                            updateNote.setLng(finalLng);
+                            updateNote.setLat(finalLat);
                         }
                     }
                     catch (Exception err){
