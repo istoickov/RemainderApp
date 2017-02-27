@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="play-services-auth-10.2.0">
+    <CLASSES>
+<<<<<<< HEAD:.idea/libraries/play_services_drive_9_4_0.xml
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/9.4.0/res" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/9.4.0/jars/classes.jar!/" />
+=======
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/10.2.0/res" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/10.2.0/jars/classes.jar!/" />
+>>>>>>> 179bf50c9065f7c50e00e96b627b753507556c4f:.idea/libraries/play_services_auth_10_2_0.xml
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

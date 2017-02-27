@@ -6,6 +6,8 @@
     <uses-permission android:name="android.permission.WRITE_CALENDAR" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
 
     <application
         android:allowBackup="true"
@@ -21,7 +23,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".NewNoteActivity" />
-        <activity android:name=".MyNotesActivity"></activity>
+        <activity android:name=".MyNotesActivity" />
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
@@ -29,10 +31,17 @@
 
         <activity
             android:name=".MapsActivity"
-            android:label="@string/title_activity_maps"></activity>
+            android:label="@string/title_activity_maps" />
+
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
+
+        <receiver android:name=".myBroadcastReciever">
+            <intent-filter>
+                <action android:name="android.intent.action.TIME_TICK" />
+            </intent-filter>
+        </receiver>
     </application>
 
 </manifest>

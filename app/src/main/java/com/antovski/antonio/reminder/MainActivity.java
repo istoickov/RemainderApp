@@ -1,6 +1,7 @@
 package com.antovski.antonio.reminder;
 
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -12,6 +13,11 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        myBroadcastReciever myBroadcastReciever = new myBroadcastReciever();
+
+        IntentFilter mTime = new IntentFilter(Intent.ACTION_TIME_TICK);
+        registerReceiver(myBroadcastReciever, mTime);
 
 //        DBHandler db = new DBHandler(this);
 //        db.deleteAll();
