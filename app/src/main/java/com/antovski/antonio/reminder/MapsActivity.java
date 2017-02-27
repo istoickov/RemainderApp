@@ -1,10 +1,11 @@
 package com.antovski.antonio.reminder;
 
 import android.Manifest;
+import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.os.Bundle;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.FragmentActivity;
-import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
@@ -22,12 +23,16 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
     private GoogleMap map;
 
-    private LatLng clicked;
+    public LatLng clicked;
+
+    private Note note;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_maps);
+
+        note = (Note) getIntent().getSerializableExtra("Note");
 
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
@@ -77,7 +82,16 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 map.animateCamera(CameraUpdateFactory.newLatLngZoom(point, 13));
                 map.addMarker(markerOptions);
 
-                Toast.makeText(MapsActivity.this, "Marker added", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MapsActivity.this, "Place picked", Toast.LENGTH_SHORT).show();
+
+                Intent intent = new Intent(MapsActivity.this, NewNoteActivity.class);
+                intent.putExtra("Place", clicked.toString());
+
+                if(note != null){
+                    intent.putExtra("Note", note);
+                }
+
+                startActivity(intent);
             }
         });
     }
