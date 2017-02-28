@@ -74,8 +74,10 @@ public class NewNoteActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(NewNoteActivity.this, MapsActivity.class);
+                Note tempNote = null;
                 if(updateNote != null){
-                    intent.putExtra("Note", updateNote);
+                    tempNote = updateNote;
+                    intent.putExtra("Note", tempNote);
                 }
                 startActivity(intent);
             }
@@ -96,7 +98,7 @@ public class NewNoteActivity extends AppCompatActivity {
                 Note note = null;
                 DBHandler db = new DBHandler(context);
 
-                if(!date.contains("DATE") && !date.contains("TIME") && name != ""  && desc != ""){ //VALIDATION!!!
+                if(!date.contains("DATE") && !date.contains("TIME") && name.length() != 0  && desc.length() != 0){
                     try{
                         if(!update){
                             NOTES_COUNT = db.getNotesCount() + 1;
@@ -119,8 +121,8 @@ public class NewNoteActivity extends AppCompatActivity {
                     db.close();
                     txtName.setText("");
                     txtDesc.setText("");
-                    btnDate.setText("");
-                    btnTime.setText("");
+                    btnDate.setText("DATE");
+                    btnTime.setText("TIME");
                 }else if(update){
                     db.updateNote(updateNote);
                 }
