@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/Android-Reminder-App.iml" filepath="$PROJECT_DIR$/Android-Reminder-App.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/ReminderApp.iml" filepath="$PROJECT_DIR$/ReminderApp.iml" />
+>>>>>>> f306fe2ba8298406fcb988b364f150de32ca0df8
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
