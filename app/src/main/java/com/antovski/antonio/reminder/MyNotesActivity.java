@@ -30,7 +30,7 @@ public class MyNotesActivity extends AppCompatActivity implements ListFragment.O
 
             @Override
             public void onMonthScroll(Date firstDayOfNewMonth) {
-                
+
             }
         });
 
