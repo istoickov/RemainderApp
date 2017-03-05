@@ -1,36 +1,46 @@
 package com.antovski.antonio.reminder;
 
+import android.icu.text.SimpleDateFormat;
 import android.net.Uri;
-import android.os.Bundle;
+import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
-public class MyNotesActivity extends AppCompatActivity implements ListFragment.OnFragmentInteractionListener,
-        MonthView.OnFragmentInteractionListener,
-        weekView.OnFragmentInteractionListener {
+import com.github.sundeepk.compactcalendarview.CompactCalendarView;
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_my_notes);
-        listFragment();
-    }
+import java.util.Date;
+
+public class MyNotesActivity extends AppCompatActivity implements ListFragment.OnFragmentInteractionListener{
+
+    CompactCalendarView calendar;
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.menu, menu);
+
+        calendar.setListener(new CompactCalendarView.CompactCalendarViewListener() {
+            @Override
+            public void onDayClick(Date dateClicked) {
+
+            }
+
+            @Override
+            public void onMonthScroll(Date firstDayOfNewMonth) {
+                
+            }
+        });
+
         return true;
     }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        switch(item.getItemId()){
+        switch (item.getItemId()) {
             case R.id.menuDayView:
-                monthView();
                 return true;
             case R.id.menuListView:
                 listFragment();
@@ -39,18 +49,16 @@ public class MyNotesActivity extends AppCompatActivity implements ListFragment.O
                 monthView();
                 return true;
             case R.id.menuWeekView:
-                weekView();
                 return true;
             case R.id.menuMapView:
-
                 return true;
         }
         return false;
     }
 
-    public void listFragment(){
+    public void listFragment() {
         ListFragment lf = (ListFragment) getSupportFragmentManager().findFragmentByTag("ListFragment");
-        if(lf == null){
+        if (lf == null) {
             lf = new ListFragment();
         }
         FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
@@ -58,25 +66,17 @@ public class MyNotesActivity extends AppCompatActivity implements ListFragment.O
         ft.commit();
     }
 
-    public void monthView(){
-        MonthView mv = (MonthView) getSupportFragmentManager().findFragmentByTag("MonthView");
-        if(mv == null){
-            mv = new MonthView();
+    public void monthView() {
+        Fragment f = getSupportFragmentManager().findFragmentByTag("MaterialCalendarView");
+        if(f == null){
+            f = new Fragment();
         }
-        FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
-        ft.replace(R.id.fragmentLayout, mv, "MonthView");
-        ft.commit();
+        FragmentTransaction t = getSupportFragmentManager().beginTransaction();
+        t.replace(R.id.fragmentLayout, f, "calendarView");
+        t.commit();
     }
 
-    public void weekView(){
-        weekView mv = (weekView) getSupportFragmentManager().findFragmentByTag("WeekView");
-        if(mv == null){
-            mv = new weekView();
-        }
-        FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
-        ft.replace(R.id.fragmentLayout, mv, "WeekView");
-        ft.commit();
-    }
+
 
     @Override
     public void onFragmentInteraction(Uri uri) {
