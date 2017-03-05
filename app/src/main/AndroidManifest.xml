@@ -37,7 +37,7 @@
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
 
-        <receiver android:name=".myBroadcastReciever">
+        <receiver android:name=".myBroadcastReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.TIME_TICK" />
             </intent-filter>

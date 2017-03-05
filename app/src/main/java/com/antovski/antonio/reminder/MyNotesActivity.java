@@ -1,7 +1,7 @@
 package com.antovski.antonio.reminder;
 
-import android.icu.text.SimpleDateFormat;
 import android.net.Uri;
+import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
@@ -11,29 +11,22 @@ import android.view.MenuItem;
 
 import com.github.sundeepk.compactcalendarview.CompactCalendarView;
 
-import java.util.Date;
-
 public class MyNotesActivity extends AppCompatActivity implements ListFragment.OnFragmentInteractionListener{
 
     CompactCalendarView calendar;
 
     @Override
+    protected void onCreate(Bundle savedInstanceState){
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_my_notes);
+
+        listFragment();
+    }
+
+    @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.menu, menu);
-
-        calendar.setListener(new CompactCalendarView.CompactCalendarViewListener() {
-            @Override
-            public void onDayClick(Date dateClicked) {
-
-            }
-
-            @Override
-            public void onMonthScroll(Date firstDayOfNewMonth) {
-
-            }
-        });
-
         return true;
     }
 

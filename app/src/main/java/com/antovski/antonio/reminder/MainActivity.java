@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        myBroadcastReciever myBroadcastReciever = new myBroadcastReciever();
+        myBroadcastReceiver myBroadcastReciever = new myBroadcastReceiver();
 
         IntentFilter mTime = new IntentFilter(Intent.ACTION_TIME_TICK);
         registerReceiver(myBroadcastReciever, mTime);

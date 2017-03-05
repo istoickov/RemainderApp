@@ -85,9 +85,10 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 Toast.makeText(MapsActivity.this, "Place picked", Toast.LENGTH_SHORT).show();
 
                 Intent intent = new Intent(MapsActivity.this, NewNoteActivity.class);
-                intent.putExtra("Place", clicked.toString());
 
                 if(note != null){
+                    note.setLat(clicked.latitude);
+                    note.setLng(clicked.longitude);
                     intent.putExtra("Note", note);
                 }
 

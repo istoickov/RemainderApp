@@ -23,7 +23,7 @@ import java.util.List;
  * Created by Antonio on 27-Feb-17.
  */
 
-public class myBroadcastReciever extends BroadcastReceiver {
+public class myBroadcastReceiver extends BroadcastReceiver {
     @Override
     public void onReceive(Context context, Intent intent) {
         DBHandler db = new DBHandler(context);
@@ -54,26 +54,8 @@ public class myBroadcastReciever extends BroadcastReceiver {
             int nowHours = calendar.get(Calendar.HOUR_OF_DAY) + 1;
             int nowMinutes = calendar.get(Calendar.MINUTE);
 
-            if(noteDay == nowDay && noteMonth == nowMonth && noteYear == nowYear && noteHours == nowHours){
-                if(noteMinutes - nowMinutes == 30){
-                    NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(context)
-                            .setContentTitle(n.getName())
-                            .setContentText(n.getDescription())
-                            .setSmallIcon(R.drawable.ic_stat_)
-                            .setAutoCancel(true)
-                            .setVisibility(NotificationCompat.VISIBILITY_PUBLIC);
-                    Intent resultIntent = new Intent(context, MainActivity.class);
-                    TaskStackBuilder stackBuilder = TaskStackBuilder.create(context);
-                    stackBuilder.addParentStack(MainActivity.class);
-                    stackBuilder.addNextIntent(resultIntent);
-                    PendingIntent resultPendingIntent = stackBuilder.getPendingIntent(0, PendingIntent.FLAG_UPDATE_CURRENT);
-                    mBuilder.setContentIntent(resultPendingIntent);
-                    NotificationManager mNotificationManager = (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
-                    mNotificationManager.notify(n.getID(), mBuilder.build());
-                }
-            }
-            else if(noteDay == nowDay && noteMonth == nowMonth && noteYear == nowYear && noteHours > nowHours){
-                if(nowMinutes - noteMinutes == 30){
+            if(noteDay == nowDay && noteMonth == nowMonth && noteYear == nowYear && (noteHours == nowHours || noteHours > nowHours)){
+                if(noteMinutes - nowMinutes == 30 || nowMinutes - noteMinutes == 30){
                     Uri sound = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
                     NotificationCompat.Builder mBuilder = new NotificationCompat.Builder(context)
                             .setContentTitle(n.getName())
@@ -92,7 +74,7 @@ public class myBroadcastReciever extends BroadcastReceiver {
                 }
             }
 
-            if(noteDay == nowDay && noteMonth == nowMonth && noteYear == nowYear && noteHours == nowHours && noteMinutes - nowMinutes == 0){
+            if(noteDay == nowDay && noteMonth == nowMonth && noteYear == nowYear && noteHours == nowHours && noteMinutes == nowMinutes){
                 Uri sound = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
                 Ringtone r = RingtoneManager.getRingtone(context, sound);
                 AlertDialog.Builder builder = new AlertDialog.Builder(context);
