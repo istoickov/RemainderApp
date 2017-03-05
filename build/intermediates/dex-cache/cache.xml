@@ -3,12 +3,12 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jar="C:\Users\Antonio\.android\build-cache\0f4ce35bf082889037c89a0f107d2aa8ad9ed88d\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="2f2fa374395dc9cbf18a9f6b1783e84f4beefcab">
-        <dex dex="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_8ebfd985b7f458f9cd861588094eee2222bf6f19\classes.dex" />
+        sha1="f2b64f6a762f61a2379d6a79af03e2ee56eefe0b">
+        <dex dex="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_09ec41cd4d1805fcbac7e9facf6487ad4d74f6c6\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -18,6 +18,24 @@
         revision="25.0.0"
         sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
         <dex dex="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_1f8547cda46ab48b439ae803f7e5e8b04b97b262\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a2b22f9036589bd475da5e5d09f984cb67fce698">
+        <dex dex="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_8ebfd985b7f458f9cd861588094eee2222bf6f19\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Antonio\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.0-alpha9\constraint-layout-solver-1.0.0-alpha9.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6a908fd0803cc5f65b007101002aec06dc7544da">
+        <dex dex="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.0-alpha9_15610966a0051a492adb75b7d095273b652277c2\classes.dex" />
     </item>
 
 </items>
