@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        
+
         IntentFilter mTime = new IntentFilter(Intent.ACTION_TIME_TICK);
         registerReceiver(myBroadcastReceiver, mTime);
 

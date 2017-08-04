@@ -15,7 +15,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity" android:launchMode="singleInstance">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -23,15 +23,13 @@
             </intent-filter>
         </activity>
         <activity android:name=".NewNoteActivity" />
-        <activity android:name=".MyNotesActivity" />
+        <activity android:name=".MyNotesActivity" android:launchMode="singleInstance" />
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyCOdWomCt-Cu_HsusolN0BOz1B3YSQVmj8" />
 
-        <activity
-            android:name=".MapsActivity"
-            android:label="@string/title_activity_maps" />
+        <activity android:name=".MapsActivity" android:label="@string/title_activity_maps" />
 
         <meta-data
             android:name="com.google.android.gms.version"
