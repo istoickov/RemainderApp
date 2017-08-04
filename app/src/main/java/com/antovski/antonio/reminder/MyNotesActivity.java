@@ -1,5 +1,6 @@
 package com.antovski.antonio.reminder;
 
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -74,5 +75,12 @@ public class MyNotesActivity extends AppCompatActivity implements ListFragment.O
     @Override
     public void onFragmentInteraction(Uri uri) {
 
+    }
+
+    @Override
+    public void onBackPressed() {
+        //super.onBackPressed();
+        Intent intent = new Intent(MyNotesActivity.this, MainActivity.class);
+        startActivity(intent);
     }
 }

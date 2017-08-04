@@ -381,21 +381,21 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2b0e77bb97753d53bd6d90c07c6b8785f6d82783">
+        <dex dex="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_8ebfd985b7f458f9cd861588094eee2222bf6f19\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\Antonio\.android\build-cache\a6d3c72af7be24b1cb1880ca407bae511d114bc4\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="90270132a5f1a33584f453c571257dd35e728201">
         <dex dex="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d5a9feda6be417eb9db72392e2b19ed753d06d36\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="e6d89d05c1e10388b245a8c61d76546211364868">
-        <dex dex="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_8ebfd985b7f458f9cd861588094eee2222bf6f19\classes.dex" />
     </item>
     <item
         is-multidex="true"
