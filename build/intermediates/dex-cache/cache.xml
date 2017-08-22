@@ -2,643 +2,661 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="C:\Users\Antonio\.android\build-cache\b34f86b1a95f4f90e7bcc71eab193d8f55bfb32f\output\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\Ivan Stoichkov\.android\build-cache\c503c39c7e51190780d1e2cb1adb4e14e983488f\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="6da05b7498da036b5b37c3beb861cd2060929dcd">
-        <dex dex="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_999db79130f2c9269afb9e9eaf9be99a83a835ce\classes.dex" />
+        sha1="423fb69e69759d8b726fa4a4fb6a1ea9fc86d1cd">
+        <dex dex="C:\Users\Ivan Stoichkov\Desktop\ReminderApp-master\app\build\intermediates\pre-dexed\debug\classes_701c1c20432bf9bef160c209f47b020a7d9d253f.jar" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Antonio\.android\build-cache\4073125d6019db000ad727640b81f5ce2d294c1f\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="8fd2e9eadc9d214966ee7f60d6c5a17a335d7533">
-        <dex dex="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8402763cc8fc90eee238b10d45a50bdf00bc0a66\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Antonio\.android\build-cache\8f24e93c958c4e5719c108ce457a615027a81557\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="1fbf3733f36fea63e70373212796e70f9079981f">
-        <dex dex="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_139f86a78a37f7441e1befd06d54db462ca03ab6\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Antonio\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.0-alpha9\constraint-layout-solver-1.0.0-alpha9.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="6a908fd0803cc5f65b007101002aec06dc7544da">
-        <dex dex="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.0-alpha9_15610966a0051a492adb75b7d095273b652277c2\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Antonio\.android\build-cache\234b55642b5aed1a126986de01d7e8ad7b980f84\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="1df6d719c4e264d66bb98baa5cb637495b8cca66">
-        <dex dex="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_bb43ea25f1eaf560882e320b3b29d31a4e981176\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Antonio\.android\build-cache\f862f82e3e2f7c1669808f760de40a7e3675a774\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="421a5cebe9ff187c98075c59786e9464c5c67d36">
-        <dex dex="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d38a81c033f3917767ccd6bfc411e1d7328897f4\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Antonio\.android\build-cache\7e35349242ce85e8c5127e8cdda05222d7685e9c\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_60bc5e6730d81570f89fd3705da8425f3cbc9b6f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Antonio\.android\build-cache\64ad12220d396975090888fbf3b7bc28ac09077d\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
-        <dex dex="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_44fc01a70fb75151c51a00981dd473edc5df3a2a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Antonio\.android\build-cache\22d7efdd76f18792c628015cbc96d456103140f7\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="a3f7595ca32e614b454ceb7b7e241bb037a28e86">
-        <dex dex="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_623b6fc0172b2015a7b847e12be33ec33449032d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Antonio\.android\build-cache\24d523812b8cbadc95596455fe80563839cefaf5\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="3d13e510077b35fe8e49930a627dd849ad5da0dc">
-        <dex dex="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_864c53cfb9f7b8175eeb0007de9c011b748a3ac8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Antonio\.android\build-cache\c687fe8a59d5fda87a79c464f7fe4177ee64ecf8\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="1bab75be1918fc9871be4da7afe38d7e4d308303">
-        <dex dex="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9cc87222711d4098767c2e8e8f74b4dcdf239bc0\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Antonio\.android\build-cache\17a4b8ae9d8d53715cc8cd371403b603fcc8d1ff\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
-        <dex dex="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1c2ccc3472117fafe33b6dbeea0842debceaebae\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="C:\Users\Ivan Stoichkov\Desktop\ReminderApp-master\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_1f8547cda46ab48b439ae803f7e5e8b04b97b262\classes.dex" />
+        <dex dex="C:\Users\Ivan Stoichkov\Desktop\ReminderApp-master\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_da0c1fbcd1fa1b2d043dbabd53979ab57d3b8a60\classes.dex" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\Antonio\.android\build-cache\c2dea48e310fbc3b7150b850c52d99d54209900a\output\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_d14cb50aead4249bfe9d25b9599644e26afaacca\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Antonio\.android\build-cache\06cd47917d873dc25139334925d93b0feef83549\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="654b294d429b56fd18392f2b68ad79954f431f8e">
-        <dex dex="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c43ec9247b686a081dab6b765f16dc301e11c01a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Antonio\.android\build-cache\dd0aeb0579d8fc89c1b1b58310aa08fe5d04dc6c\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="8e1d31656bc9f1889283836e025e6cb703acd38a">
-        <dex dex="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f928eec954edee9a65acec496d6a2dd3e9aa598e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Antonio\.android\build-cache\1d3497980bc31ae0e2cacfc14942aa98e903a192\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b293c1d6f24cc6595b657ce1710f36b876b00869\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Antonio\.android\build-cache\71b535cabf3cc0c9da52235bd63b89e91a8b52e9\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="a61e7010aa7be5da53cd1bc5279630510c9a4912">
-        <dex dex="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_508fdbc5a93736cfeb9181eb7afcfbd5fc5047de\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Antonio\.android\build-cache\3321f27d914703f35d76879eb46840dd7a8d5a0a\output\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
-        <dex dex="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_8a45d2812fc62fa2fc9f2b97be66a2acbccb27a3\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Antonio\.android\build-cache\b45705691bfcb20d7e50272eb62245b3e29f9797\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="48532a016bb0dfbe7970c147ce784598a515406b">
-        <dex dex="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2bab947039dd3d0ebc64ae89698bea4624f221d2\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Antonio\.android\build-cache\a076e5cbc264ff981c91aa1be8ba73f1317adfa4\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="a9493f008850469ed3fab9b28658919562882aed">
-        <dex dex="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_65e6641482520f9682af64541f842e053a4016ba\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Antonio\.android\build-cache\c2dea48e310fbc3b7150b850c52d99d54209900a\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
-        <dex dex="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3d14e27455129beb44e4394de55bfd81db110e15\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Antonio\.android\build-cache\fa143110ce5292bd1cc7b338c344f9b1a6ec002b\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="db48dfabe8ecc46681ceca418d6bd61a5339f818">
-        <dex dex="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_26f896ac9790952b73730679097fc63cb0cdc916\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Antonio\.android\build-cache\de49ee46cd6d4053c9e3b9dea0631127c268931a\output\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\Ivan Stoichkov\.android\build-cache\4ecb693df97228f82a04a04c84de34f1d9232d09\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="bd75f9f0296fe220da6d0ad961831b04541c4452">
-        <dex dex="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_34e1c896bcc20607e8a9de720b1e9cc791d014db\classes.dex" />
+        <dex dex="C:\Users\Ivan Stoichkov\Desktop\ReminderApp-master\app\build\intermediates\pre-dexed\debug\classes_98bd8872a4d4289681e7b697e9c537b1240622d1.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\Antonio\.android\build-cache\56325b4631507c5083fed1d5540b2db60300e5d3\output\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\Ivan Stoichkov\.android\build-cache\fbf472c36e1a0246c0757f221793e619d62dcceb\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="aa23e4589287adb431ef59d6c78af79ab8885682">
-        <dex dex="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e20daca32addbcb9bef2d839c6bddbb5b25a2f33\classes.dex" />
+        sha1="db48dfabe8ecc46681ceca418d6bd61a5339f818">
+        <dex dex="C:\Users\Ivan Stoichkov\Desktop\ReminderApp-master\app\build\intermediates\pre-dexed\debug\classes_f49923ceab9367a69e6f4204c70f787a8de5b2a1.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\Antonio\.android\build-cache\704f76260025684da094fe497a9691e013b970fd\output\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
-        <dex dex="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_9aea57ec5f16f59b7a61489dff0bb9ecefe4d38a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Antonio\.android\build-cache\12111f7010701b0f216c8de4ac90901faa778b88\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="74c5a91d6510ad42410e8a047d90d2ea6721a0e0">
-        <dex dex="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_34d5e5242038258f3113e79dcf5fe1ba6e3a2260\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Antonio\.android\build-cache\256d5d1356228ff7597cae67e56ec98f88cde6e2\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="f2b64f6a762f61a2379d6a79af03e2ee56eefe0b">
-        <dex dex="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3369f69858e261a1bc06d2a8a86ac17bb4324ff0\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Antonio\.android\build-cache\3321f27d914703f35d76879eb46840dd7a8d5a0a\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d29712755d19502e1df42ec0ecaf399813c677a6\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Antonio\.android\build-cache\5f66723f1725575a7e2eff5f8f28659d191ae040\output\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\Ivan Stoichkov\.android\build-cache\5c425a95ff030b0880e46998bd0ef202b3c752da\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="3d6951cb416ebf8c66a32b9480808ca247b68344">
-        <dex dex="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_13ca198470532d3a9a92668642c24112ab934ed2\classes.dex" />
+        <dex dex="C:\Users\Ivan Stoichkov\Desktop\ReminderApp-master\app\build\intermediates\pre-dexed\debug\classes_f1418d4fd7da0860eb8dd1797fdfa0e58ece43c2.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\Antonio\.android\build-cache\64ad12220d396975090888fbf3b7bc28ac09077d\output\jars\libs\internal_impl-24.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
-        <dex dex="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.0.0_ea5bd2c18f2de4bd8b7ab57a4c8f9bed30a59edf\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Antonio\.android\build-cache\f5567aedb5de3d28e4d8c7f737e3b0904a4f0cf1\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="8438c64f9eb581429dc592f7c9b3156a3d071653">
-        <dex dex="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_af68382e44aebe6b7e13401c3202311367eb2340\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Antonio\.android\build-cache\59f85c088a5cbcd717bec2a04f944a5b37203dd0\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d08bb32b88df3dbcbe1d498c3c57f020b8c521ec">
-        <dex dex="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_32e48a58ac0d4ab0ce69997a21c5041aaa11fa6d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Antonio\.android\build-cache\1033831c33e5e9436f0f6affda5c95cb099de07a\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="ea03bbfaed89818f233ee9918fac493f2b63895a">
-        <dex dex="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a6a7d0ff555790adc20bd7e2c1866649fd08fbe9\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Antonio\.android\build-cache\c7667f57493b282f96949be4040decabdc78c465\output\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="867dad63c33388ff8c7644b236579355036d075f">
-        <dex dex="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_1c63c7d06547f8a46a3d07eadfdf929c1ea0befd\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Antonio\.android\build-cache\ec604b1d61182fb59495fcbb1b1ab3149bc80b6f\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="db4aca1c1ec60f2c098d3b6c91cedfb7838f83ed">
-        <dex dex="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_18dfc1f925ec3f308ff1865e91be1302b1ae31c9\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Antonio\.android\build-cache\1e28ce0aaca741a3fce57cf2094e6b9d0e4db6d4\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="0d5cbbbfe040201c7569478b70a13b58fd11aab4">
-        <dex dex="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_dc2f9f85255e06e5071be99fd05b72841351bceb\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Antonio\.android\build-cache\47248944a545f0a7d5131230534337ad89c90686\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="3f4483afd050f3be12db7838422309446a45daa1">
-        <dex dex="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_71ff8377e435472588af4532944df33b27af56b2\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Antonio\.android\build-cache\9761894597ef9843ce1f74f6e5acf3075d906378\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="ddb7fed808f4331174b59428ccfc46b3696c9812">
-        <dex dex="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_bf7de2bd2de8d4e59b808b30f67204ec6e63ee29\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Antonio\.android\build-cache\b2a98c799fb5d4d98a0acd61ff55e5b4f0e721a4\output\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\Ivan Stoichkov\.android\build-cache\6e38aad463b70714f3bfc8c9b0570c18d723d598\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="7d14fe9bd2283b2eb7fcab08458aa0357917e138">
-        <dex dex="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1eaf47b7c0d788b62cc66c172b7a0310c5241d13\classes.dex" />
+        <dex dex="C:\Users\Ivan Stoichkov\Desktop\ReminderApp-master\app\build\intermediates\pre-dexed\debug\classes_c07d79ba25e168cda10a42b0f65bff51c4a3f299.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\Antonio\.android\build-cache\f83cfbddf03660d0a5154ac713ba7a98e2481cbd\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="423fb69e69759d8b726fa4a4fb6a1ea9fc86d1cd">
-        <dex dex="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a4e793bfd555449e51a903e4c71d444d1fa8c9be\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Antonio\.android\build-cache\6a03ebf29d6992b9abbebf0134a3cc629aea3b3d\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e870cfa1ef4d26ed4211b111edb92920926e31fa\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="2b0e77bb97753d53bd6d90c07c6b8785f6d82783">
-        <dex dex="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_8ebfd985b7f458f9cd861588094eee2222bf6f19\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Antonio\.android\build-cache\a6d3c72af7be24b1cb1880ca407bae511d114bc4\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="90270132a5f1a33584f453c571257dd35e728201">
-        <dex dex="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d5a9feda6be417eb9db72392e2b19ed753d06d36\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Antonio\.android\build-cache\bd97453ce38732a0b6207a2241a42806c283aeca\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="b831d3902674d096189451d46fce219e2c2904b7">
-        <dex dex="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_31aaa8415a09b162e885ba06362dfcb2af4093c2\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Antonio\.android\build-cache\4ea0f3e61d138dd957e77899be2c4a8803a4488d\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="ce9112e08a027c8620ae693983e38cdbb9f6371b">
-        <dex dex="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c34a961b3c0b68f6c20cb019a688c443294fd5f9\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Antonio\.android\build-cache\c5fb77d518142524a7a172dc9913af10b6a3c8e1\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="4ef2d91da513c4d7e773ae438fe04d0e4c135957">
-        <dex dex="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_295e1a3a658ca1bd953cc73d26129714f7610b40\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Antonio\.android\build-cache\95be84bb3e0e259d7fc3ee40f761d0d4509ad210\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="444f9de23145e8caba7bf1c1772acad142ea6013">
-        <dex dex="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c165c112df0524911ced8ce4bfc3dcdf7e53859e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Antonio\.android\build-cache\86e838cc85bac6a4c2ffa019e52180dabd8bc5f4\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="0e301f24b283f14b564f660c9abe863af6be5896">
-        <dex dex="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f326d2a2d45bd5d032e44f41885d843642ce479c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Antonio\.android\build-cache\e34a6045d0d9406a029d8bec845e40786f7c6a05\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="45e0953544711e0b5a2d227732e88cccb82793bc">
-        <dex dex="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_bf02eacd42b99da83a145aab27dde1c39eb1de54\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Antonio\.android\build-cache\8341cbf6b6bda842c66a0fc2f34d7f8bb80d0da9\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="75575883f0348fc5d2be85f23bd10b050095cf17">
-        <dex dex="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1d303a3b9c4417001fbb21aed4c76ba4378e70c7\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Antonio\.android\build-cache\704f76260025684da094fe497a9691e013b970fd\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
-        <dex dex="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4ae7ba774fe2fcbd1f9e3bda331fe8050e870b2b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Antonio\.android\build-cache\6636913840117506984ddabf5b550264c0bca801\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="0f58195bee8a08f35e7d4ee7fd4b0479e570e172">
-        <dex dex="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6ddf118770c5cc32d98d37f67d6bde7b9de1130a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Antonio\.android\build-cache\f8c8af97e4a847fb4046a3799e0cf07d4ce8d7ba\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="4e01b82d664e1a8253b2b9658e74b5da35c8771d">
-        <dex dex="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a47d14b37f4b838ff6a6b81fff81cd6ec7500c8b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Antonio\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
-        <dex dex="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_680521505403aafdf8b9a5a46787cdfbbf5d6c1f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Antonio\.android\build-cache\92c7849377737113fc9f11a59f2ab4e54964c1b7\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_fd44573df05373c7fb45acea032fe5f8768555cc\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Antonio\.android\build-cache\c03f1f8b2ef32cbaa5e2fa347e749695631b995e\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
-        <dex dex="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_92c601553cc6cf44065b8e151d0d98a30e042ad2\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Antonio\.android\build-cache\5a07f6a38ea81d046e02b8e0349efa9d036d9210\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="e7157a9577c983651d6c6ee313813424fe2d8ab6">
-        <dex dex="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_414368f49ed9bab66d2f6ca8799e6cd9691925ec\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Antonio\.android\build-cache\7a13e21d5b8cd75efce1dc21f304eb03d10a11bb\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="ca82d5800780b1d53f0f9ab43678d8634a34cddc">
-        <dex dex="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_461006b153ed8e7e2852969b278188bcd7c8bc8e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Antonio\.android\build-cache\241e66eec5d052ed0fc871f29ee1e41fb649857c\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="9d1d0e1270310e34e2d65afda2bc18605c14cd46">
-        <dex dex="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_241269fb44fab493e8d88e610f03e6c53fb22840\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Antonio\.android\build-cache\93e34dcec764bdbb45db3631f24f889299a23560\output\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\Ivan Stoichkov\.android\build-cache\106b6f4b6a45da8d18c5adbf9c6d82c2b2fe2080\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="68485f21eeb5d6c9ed82c445d520b9fc81c87108">
-        <dex dex="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ebf2d80b8062b1a8c051bf9687742434c0d00be0\classes.dex" />
+        <dex dex="C:\Users\Ivan Stoichkov\Desktop\ReminderApp-master\app\build\intermediates\pre-dexed\debug\classes_22421d48e1983ee3a920f1bd5764d66c734eb8a0.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\Antonio\.android\build-cache\3c7bedae87f0671cf8b4a2ff632cb7a3d44c0ce6\output\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\Ivan Stoichkov\.android\build-cache\d44db01a06ed5fc3e307ed559ec6e8f19c4eb52a\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="ab0c7fe28f9506302eb39adf1ebf5858732e18ec">
-        <dex dex="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_265b0115ac88d9c6a895c591db6268cfb655354f\classes.dex" />
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\Users\Ivan Stoichkov\Desktop\ReminderApp-master\app\build\intermediates\pre-dexed\debug\classes_22f0cad041971aaa1281c20cea766ce0e2fb2425.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\Antonio\.android\build-cache\92c7849377737113fc9f11a59f2ab4e54964c1b7\output\jars\libs\internal_impl-24.2.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
-        <dex dex="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_70e736bfc7ab083067a4feeaa1e30568f1066190\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Antonio\.android\build-cache\c7667f57493b282f96949be4040decabdc78c465\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
-        <dex dex="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a6ecd52ae97a855a063582b12779787f7254de2c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Antonio\.android\build-cache\1e433ae840d8aaa42fc82410e350292349b102cb\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="646b2c48e147b943f0a39842457fdc66d501e4b6">
-        <dex dex="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c50e64bae7c0f811570965eac3abd15f9d844eb2\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Antonio\.android\build-cache\9e783fd1dc6ff9473f4c9f475ff189f017c91992\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="6907681011988592feb2df2d2a5cd7aa6062d83d">
-        <dex dex="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6ae5d9924293b26b6e2b691abeadeaa9ec2700ce\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Antonio\.android\build-cache\d064870287b988f7bea51d76fbcb641a059064b9\output\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\Ivan Stoichkov\.android\build-cache\c8a198b0be53217329964b9af4e3f71b873f64de\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="94fca868854457ede6df15c902938468c71d579e">
-        <dex dex="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7b7e5161f4f5a74cefc3a7bcc67ad8a992511cad\classes.dex" />
+        <dex dex="C:\Users\Ivan Stoichkov\Desktop\ReminderApp-master\app\build\intermediates\pre-dexed\debug\classes_9926280fba18883a4e6668bbc6db5c72c567d782.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan Stoichkov\.android\build-cache\307793cb8df3a52e5258996d5800eced58d0f170\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="90270132a5f1a33584f453c571257dd35e728201">
+        <dex dex="C:\Users\Ivan Stoichkov\Desktop\ReminderApp-master\app\build\intermediates\pre-dexed\debug\classes_feb34f39086062bde09dadb94be3b7615f3f5c95.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan Stoichkov\.android\build-cache\3331852750677ba559a1b343cd8a618cb335e22b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0d5cbbbfe040201c7569478b70a13b58fd11aab4">
+        <dex dex="C:\Users\Ivan Stoichkov\Desktop\ReminderApp-master\app\build\intermediates\pre-dexed\debug\classes_e134e8fa7c20106352f9978f8aba56af1f462357.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan Stoichkov\.android\build-cache\04d18d41d69c99595cef0e235070c7a39768e0b9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ce9112e08a027c8620ae693983e38cdbb9f6371b">
+        <dex dex="C:\Users\Ivan Stoichkov\Desktop\ReminderApp-master\app\build\intermediates\pre-dexed\debug\classes_769a8e1f99a5d5aefbf9adc16fb304c3f38005bd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan Stoichkov\.android\build-cache\58b820c0b6c42d7b591dac65b9b8d81b7ad9b398\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3d13e510077b35fe8e49930a627dd849ad5da0dc">
+        <dex dex="C:\Users\Ivan Stoichkov\Desktop\ReminderApp-master\app\build\intermediates\pre-dexed\debug\classes_0ab7f5d2a84d454349006942c796d27ab14e35a6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan Stoichkov\.android\build-cache\be0f605940bf04b7a0028a8263d7c15827785afa\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\Users\Ivan Stoichkov\Desktop\ReminderApp-master\app\build\intermediates\pre-dexed\debug\classes_1551a3135cd309631541109dd95dd3ce8043facf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan Stoichkov\.android\build-cache\14f80a2e4cf40e0ea7bad17f5c5b60ee34f8817b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\Users\Ivan Stoichkov\Desktop\ReminderApp-master\app\build\intermediates\pre-dexed\debug\classes_8d705ddc7fdb69e04fc27ca2aae1c214cc0304d0.jar" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Antonio\.android\build-cache\9db3be74fde751ffe530ff768ebde1774a154529\output\jars\classes.jar"
+        jar="C:\Users\Ivan Stoichkov\.android\build-cache\9d0c6fc1c973282b9dd7fc3673fa2e0aed00ea83\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="101393e975eaf36e3ff40b277ee9a019e077afef">
-        <dex dex="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7a858beeda905e94a79b59741d9cc6d42c07f621\classes.dex" />
+        sha1="393eb85d65baa2c3702efdf699832498f8b51bf1">
+        <dex dex="C:\Users\Ivan Stoichkov\Desktop\ReminderApp-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3a6582a11948e6d38d8490f920a83804678388e3\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan Stoichkov\.android\build-cache\1ed386037fcf091c83dd105d3fa07da50bcc2856\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Ivan Stoichkov\Desktop\ReminderApp-master\app\build\intermediates\pre-dexed\debug\classes_9e8080067220920345d6b8449cd898aa33aca0b5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan Stoichkov\.android\build-cache\bc1a8a072b4ee754da8d981a8f3d2f67dd31ef93\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="C:\Users\Ivan Stoichkov\Desktop\ReminderApp-master\app\build\intermediates\pre-dexed\debug\classes_ba9070849b83e6be77f9be9ece0bbe68995073c5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan Stoichkov\.android\build-cache\a6caa75d3acd91b3d8472e3199be7d09513bcb8d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="421a5cebe9ff187c98075c59786e9464c5c67d36">
+        <dex dex="C:\Users\Ivan Stoichkov\Desktop\ReminderApp-master\app\build\intermediates\pre-dexed\debug\classes_3529a4b284ad8ae7c9b235e303ba7adb1dd6f5f8.jar" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Antonio\.android\build-cache\d8b00fb787a5979bbede68720d920c6cd037381c\output\jars\classes.jar"
+        jar="C:\Users\Ivan Stoichkov\.android\build-cache\54e31bd0600d57be5a085881ea6dd8c35bb71aa3\output\jars\classes.jar"
         jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a936d1131ec6d65a7094eb4ec37ecf6704f9a336">
+        <dex dex="C:\Users\Ivan Stoichkov\Desktop\ReminderApp-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0170eac330680eba24885e2d8234c1ee5c90855b\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan Stoichkov\.android\build-cache\f88670169f88a39414b49951e33a328b6001d93d\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="3aaf1e7b5fe9f4d3ff22c4edc0ead631f7389d30">
-        <dex dex="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_de35ebbb92e874171918a96d9b616647ff35e776\classes.dex" />
+        <dex dex="C:\Users\Ivan Stoichkov\Desktop\ReminderApp-master\app\build\intermediates\pre-dexed\debug\classes_5726d51a25eeb7b9922a2edb9a335cd223716479.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\Antonio\.android\build-cache\9a757fd070401c664f8d776a0d53e97feb5db29b\output\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\Ivan Stoichkov\.android\build-cache\5819e37ae6eb6a4b121d4192b0c9519d10dbc2f7\output\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="C:\Users\Ivan Stoichkov\Desktop\ReminderApp-master\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_a64c562710669d2f5aac61ffceeaf471ff58f036.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan Stoichkov\.android\build-cache\2431fdf45d0fd9a467dcce45f6ec07e13eb865ce\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="1ac56e5801e986583cbe27f2cce57f626cc7ff93">
-        <dex dex="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ec544effacf9fd85ee53c01de9b5e85013e0849a\classes.dex" />
+        <dex dex="C:\Users\Ivan Stoichkov\Desktop\ReminderApp-master\app\build\intermediates\pre-dexed\debug\classes_8079d776ead15bb795052551df517bdf54f6bda1.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\Antonio\.android\build-cache\11872a9b6829f3f56766e8100e735e8d923f47c5\output\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\Ivan Stoichkov\.android\build-cache\c357a0b2af282981606d22d3b71613e4a5b99bc2\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1bab75be1918fc9871be4da7afe38d7e4d308303">
+        <dex dex="C:\Users\Ivan Stoichkov\Desktop\ReminderApp-master\app\build\intermediates\pre-dexed\debug\classes_7a8888daf885db0fe7c0d51dd76779b099f5c167.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan Stoichkov\.android\build-cache\a8eca55b3e1e7bcdcdbc7a659dd71d0f9348932d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a3f7595ca32e614b454ceb7b7e241bb037a28e86">
+        <dex dex="C:\Users\Ivan Stoichkov\Desktop\ReminderApp-master\app\build\intermediates\pre-dexed\debug\classes_0544856d9dd94773b8f3e154e7b987eaca4609b9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan Stoichkov\.android\build-cache\890949614fabb0f8147f9b612620285e56dce121\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="45e0953544711e0b5a2d227732e88cccb82793bc">
+        <dex dex="C:\Users\Ivan Stoichkov\Desktop\ReminderApp-master\app\build\intermediates\pre-dexed\debug\classes_126fc7302bd8193f7ec86f5ed2aab47c0b3f50bd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan Stoichkov\.android\build-cache\4a1f1a7dca40a575c225f65e64e66e21f84cb87b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8e1d31656bc9f1889283836e025e6cb703acd38a">
+        <dex dex="C:\Users\Ivan Stoichkov\Desktop\ReminderApp-master\app\build\intermediates\pre-dexed\debug\classes_0e6067e0046cb1c10251b28a0fa8a0537369a87a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan Stoichkov\.android\build-cache\db567146355e9873a7644e20be9bbd2b42d20d42\output\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="C:\Users\Ivan Stoichkov\Desktop\ReminderApp-master\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_12446fa66e2226bbedf14f7628d802480caa713c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan Stoichkov\.android\build-cache\38d069e3f4f3059d3420e75dca35ef174d9c2bcd\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f2b64f6a762f61a2379d6a79af03e2ee56eefe0b">
+        <dex dex="C:\Users\Ivan Stoichkov\Desktop\ReminderApp-master\app\build\intermediates\pre-dexed\debug\classes_42fea4037d189770aeda85223bd0ab91c66223ca.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan Stoichkov\.android\build-cache\be0f605940bf04b7a0028a8263d7c15827785afa\output\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="C:\Users\Ivan Stoichkov\Desktop\ReminderApp-master\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_9a2f1205741170ac080b3f0409c52c04fc233a52.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan Stoichkov\.android\build-cache\d44db01a06ed5fc3e307ed559ec6e8f19c4eb52a\output\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\Users\Ivan Stoichkov\Desktop\ReminderApp-master\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_3e7861c5dbfb1e143e73cc839c977d8e30903261.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan Stoichkov\.android\build-cache\c62b5fbc354646cd71c8b28ec569a908f88d17c1\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="48532a016bb0dfbe7970c147ce784598a515406b">
+        <dex dex="C:\Users\Ivan Stoichkov\Desktop\ReminderApp-master\app\build\intermediates\pre-dexed\debug\classes_1d3bd8720ff7394a29f1afd10a5ec245cf2476c4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan Stoichkov\.android\build-cache\4e38048dc50f54c89eb94efab49dc33310cecbde\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e7157a9577c983651d6c6ee313813424fe2d8ab6">
+        <dex dex="C:\Users\Ivan Stoichkov\Desktop\ReminderApp-master\app\build\intermediates\pre-dexed\debug\classes_4ed0713026a7c2bb35632c83e491c55bf8f60598.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan Stoichkov\.android\build-cache\a562ea0d80c455dd78a69944039defe346b540f4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ddb7fed808f4331174b59428ccfc46b3696c9812">
+        <dex dex="C:\Users\Ivan Stoichkov\Desktop\ReminderApp-master\app\build\intermediates\pre-dexed\debug\classes_89007dc920dca1fa9e5214c96a4c007356bfcb32.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan Stoichkov\.android\build-cache\931e78b4738510f3ae3f1625ef7a16d329d0d914\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ca82d5800780b1d53f0f9ab43678d8634a34cddc">
+        <dex dex="C:\Users\Ivan Stoichkov\Desktop\ReminderApp-master\app\build\intermediates\pre-dexed\debug\classes_41c313dcc4042d68eebe75511d3449d2dd84a60f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan Stoichkov\.android\build-cache\d4e0a32a4ebc8f507498f14a7b72f808aaffb8d5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1fbf3733f36fea63e70373212796e70f9079981f">
+        <dex dex="C:\Users\Ivan Stoichkov\Desktop\ReminderApp-master\app\build\intermediates\pre-dexed\debug\classes_d551a04c586530ca5b2b439a53d00620b14bce0e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan Stoichkov\.android\build-cache\4c372a9fde5b48a5b10e058856e53d6946bbccd1\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="444f9de23145e8caba7bf1c1772acad142ea6013">
+        <dex dex="C:\Users\Ivan Stoichkov\Desktop\ReminderApp-master\app\build\intermediates\pre-dexed\debug\classes_dfd2899bd915065d82d9840489e59ff44a9b7c71.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan Stoichkov\.android\build-cache\0d8235fa46ec1158328193e963461cfc1a77feee\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0f58195bee8a08f35e7d4ee7fd4b0479e570e172">
+        <dex dex="C:\Users\Ivan Stoichkov\Desktop\ReminderApp-master\app\build\intermediates\pre-dexed\debug\classes_e70b622050e0ad603844cdb48a078ccc57d6ba80.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan Stoichkov\.android\build-cache\723fb94462a2c1619e9d8c6d9fc51a9816d4690e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="646b2c48e147b943f0a39842457fdc66d501e4b6">
+        <dex dex="C:\Users\Ivan Stoichkov\Desktop\ReminderApp-master\app\build\intermediates\pre-dexed\debug\classes_113a9aa570be4489b74c35b6632937c5b3a6ba24.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan Stoichkov\.android\build-cache\3a2469157d5dc2beada49306169cd5a16274a6f8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1df6d719c4e264d66bb98baa5cb637495b8cca66">
+        <dex dex="C:\Users\Ivan Stoichkov\Desktop\ReminderApp-master\app\build\intermediates\pre-dexed\debug\classes_e406972377a771eb3e5aa1ce3e0a2ce65034f38d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan Stoichkov\.android\build-cache\51106f86dcdd0929c79b770114ee9ca4f5747750\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ea03bbfaed89818f233ee9918fac493f2b63895a">
+        <dex dex="C:\Users\Ivan Stoichkov\Desktop\ReminderApp-master\app\build\intermediates\pre-dexed\debug\classes_5d17dc16a3fc6fe36209052ac0704b420941b95e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan Stoichkov\.android\build-cache\db567146355e9873a7644e20be9bbd2b42d20d42\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="C:\Users\Ivan Stoichkov\Desktop\ReminderApp-master\app\build\intermediates\pre-dexed\debug\classes_6953ec5def8c50b3da5f1624926a16bd54c22611.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan Stoichkov\.android\build-cache\40a6aa0d901df6fc83d6a386c484f6ecde7ac64f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9d1d0e1270310e34e2d65afda2bc18605c14cd46">
+        <dex dex="C:\Users\Ivan Stoichkov\Desktop\ReminderApp-master\app\build\intermediates\pre-dexed\debug\classes_b24f8517d341af665e5721ae921a9ef9284129a5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan Stoichkov\.android\build-cache\d9a2df3bef0217c2ccc63e63240cd7c72fc26418\output\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="C:\Users\Ivan Stoichkov\Desktop\ReminderApp-master\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_ddd40b28c70eac04c3db2edbdeef1995eb19e748.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan Stoichkov\.android\build-cache\59abe564531e6cc7f14b1067d72ac5cbfc61d72b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d08bb32b88df3dbcbe1d498c3c57f020b8c521ec">
+        <dex dex="C:\Users\Ivan Stoichkov\Desktop\ReminderApp-master\app\build\intermediates\pre-dexed\debug\classes_db8996e3d8116447a408e86c780d9f4719f861e4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan Stoichkov\.android\build-cache\d9a2df3bef0217c2ccc63e63240cd7c72fc26418\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\Users\Ivan Stoichkov\Desktop\ReminderApp-master\app\build\intermediates\pre-dexed\debug\classes_11d531f5ebbc8c37983599df6357eaaf75f82176.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan Stoichkov\.android\build-cache\c962235a16ce1edd0829a6196c21654d7c4ff76e\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="857ce7350acf811749c8fd0254d3d39b02aa71f5">
-        <dex dex="C:\Users\Antonio\AndroidStudioProjects\ReminderApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_524c80faaf53ac6cf67cc14390e3d286a575fb23\classes.dex" />
+        <dex dex="C:\Users\Ivan Stoichkov\Desktop\ReminderApp-master\app\build\intermediates\pre-dexed\debug\classes_c3fbc14f9b1a526837615feeaa8d717ec1e7895e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan Stoichkov\.android\build-cache\e3b95510092f998be442f9b5ec3e818869271f27\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8438c64f9eb581429dc592f7c9b3156a3d071653">
+        <dex dex="C:\Users\Ivan Stoichkov\Desktop\ReminderApp-master\app\build\intermediates\pre-dexed\debug\classes_7178a854f422bc8cbf10c6be8b90101d717d03cf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan Stoichkov\.android\build-cache\7a8cf443e280995eed556f8a0a779266f82ff077\output\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
+        <dex dex="C:\Users\Ivan Stoichkov\Desktop\ReminderApp-master\app\build\intermediates\pre-dexed\debug\internal_impl-24.0.0_25bf05837960799d15752fc63d8273f5826e2232.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan Stoichkov\.android\build-cache\bb8a31f0f562935497170c44a7844d5f92d647ba\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ab0c7fe28f9506302eb39adf1ebf5858732e18ec">
+        <dex dex="C:\Users\Ivan Stoichkov\Desktop\ReminderApp-master\app\build\intermediates\pre-dexed\debug\classes_6add8e7568ff39d595e53125eb64d91e26093dff.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan Stoichkov\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="C:\Users\Ivan Stoichkov\Desktop\ReminderApp-master\app\build\intermediates\pre-dexed\debug\support-annotations-24.2.1_2cb0e2fd80ceb5e511d72b0763f1fb51347fbfe6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan Stoichkov\.android\build-cache\786ae21ff0df28dd76d2a5e4743a7663988796d5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8fd2e9eadc9d214966ee7f60d6c5a17a335d7533">
+        <dex dex="C:\Users\Ivan Stoichkov\Desktop\ReminderApp-master\app\build\intermediates\pre-dexed\debug\classes_f287946935d116cad2585a8b83d87415aff89741.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan Stoichkov\.android\build-cache\cac90f3022167ebd35d88da581f99e30742da703\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3f4483afd050f3be12db7838422309446a45daa1">
+        <dex dex="C:\Users\Ivan Stoichkov\Desktop\ReminderApp-master\app\build\intermediates\pre-dexed\debug\classes_003d6f0f3f425959868912dac98a4183e0572d15.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan Stoichkov\.android\build-cache\6dddf4414a24039a65e5ce648928875e41024e86\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="101393e975eaf36e3ff40b277ee9a019e077afef">
+        <dex dex="C:\Users\Ivan Stoichkov\Desktop\ReminderApp-master\app\build\intermediates\pre-dexed\debug\classes_6c079202f53a9a7cdf37c10e9d88415f021e42b0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan Stoichkov\.android\build-cache\414f51ec9364ea0e3eeef75977427ca77cd0aa56\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b831d3902674d096189451d46fce219e2c2904b7">
+        <dex dex="C:\Users\Ivan Stoichkov\Desktop\ReminderApp-master\app\build\intermediates\pre-dexed\debug\classes_283e4c9c4e9b490ee05e0c43db8c3cc6670812b3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan Stoichkov\.android\build-cache\7a8cf443e280995eed556f8a0a779266f82ff077\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
+        <dex dex="C:\Users\Ivan Stoichkov\Desktop\ReminderApp-master\app\build\intermediates\pre-dexed\debug\classes_7a890c6cc1cd03fc3112636ac77796ed11a770b4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan Stoichkov\.android\build-cache\58474480c130ccbe6ce14d7d9de135be795690b8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
+        <dex dex="C:\Users\Ivan Stoichkov\Desktop\ReminderApp-master\app\build\intermediates\pre-dexed\debug\classes_4936a834f6156ec5d8f4efd79b899bebd8a7e4e4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan Stoichkov\.android\build-cache\5819e37ae6eb6a4b121d4192b0c9519d10dbc2f7\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\Users\Ivan Stoichkov\Desktop\ReminderApp-master\app\build\intermediates\pre-dexed\debug\classes_7b6974098542e624b741b094d79613ca3f6fa068.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan Stoichkov\.android\build-cache\c1ff012b290e949a60192b5139fdbac2cdf25407\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="db4aca1c1ec60f2c098d3b6c91cedfb7838f83ed">
+        <dex dex="C:\Users\Ivan Stoichkov\Desktop\ReminderApp-master\app\build\intermediates\pre-dexed\debug\classes_411fbe3fdad54031af0cb3aed64d4fe130077717.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan Stoichkov\.android\build-cache\da64730bda3753143046724463dd3ffdca3bc1ff\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="654b294d429b56fd18392f2b68ad79954f431f8e">
+        <dex dex="C:\Users\Ivan Stoichkov\Desktop\ReminderApp-master\app\build\intermediates\pre-dexed\debug\classes_dc9808b92d971adadc415308a382d75b4b1166d6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan Stoichkov\.android\build-cache\be56d2ab4aaddfcc5b33be4e427489595fb57765\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a61e7010aa7be5da53cd1bc5279630510c9a4912">
+        <dex dex="C:\Users\Ivan Stoichkov\Desktop\ReminderApp-master\app\build\intermediates\pre-dexed\debug\classes_836f9dbd536d9e84fcc92ee882a3e034ab565bce.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan Stoichkov\.android\build-cache\0e6a71cbee7942356421d50131387067f2ff608c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4e01b82d664e1a8253b2b9658e74b5da35c8771d">
+        <dex dex="C:\Users\Ivan Stoichkov\Desktop\ReminderApp-master\app\build\intermediates\pre-dexed\debug\classes_8800dfa52597f9b6464a07b67016b4ad4298be0b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan Stoichkov\.android\build-cache\4c1238963c9392f4b98bbc4a981cf660fd5d295e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="74c5a91d6510ad42410e8a047d90d2ea6721a0e0">
+        <dex dex="C:\Users\Ivan Stoichkov\Desktop\ReminderApp-master\app\build\intermediates\pre-dexed\debug\classes_69ddecef732951584c4eb1b0d44c1375ffcbca3c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan Stoichkov\.android\build-cache\ba2593b7fdcbe330636c3112a483dccb174025af\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="75575883f0348fc5d2be85f23bd10b050095cf17">
+        <dex dex="C:\Users\Ivan Stoichkov\Desktop\ReminderApp-master\app\build\intermediates\pre-dexed\debug\classes_0bb84274a649d1338e5b24aeb80c9499f240d6ee.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan Stoichkov\.android\build-cache\54e31bd0600d57be5a085881ea6dd8c35bb71aa3\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a936d1131ec6d65a7094eb4ec37ecf6704f9a336">
+        <dex dex="C:\Users\Ivan Stoichkov\Desktop\ReminderApp-master\app\build\intermediates\pre-dexed\debug\classes_0170eac330680eba24885e2d8234c1ee5c90855b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan Stoichkov\.android\build-cache\d03bea9031b5cfe834323508bdd8a701b5a94772\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0e301f24b283f14b564f660c9abe863af6be5896">
+        <dex dex="C:\Users\Ivan Stoichkov\Desktop\ReminderApp-master\app\build\intermediates\pre-dexed\debug\classes_7e05a74edf033a51bcbeae154e687e534c020a49.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan Stoichkov\.android\build-cache\9bcfb73e932c1fd8856e33f7d22071edf2423c8d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\Users\Ivan Stoichkov\Desktop\ReminderApp-master\app\build\intermediates\pre-dexed\debug\classes_936124bfa4c985b063273cde324b7ab4e4b5a431.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ivan Stoichkov\Desktop\ReminderApp-master\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3f475cf02f7e59d27c9e4cfc189cf5e2523f1b22">
+        <dex dex="C:\Users\Ivan Stoichkov\Desktop\ReminderApp-master\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_cfc75441a0884b326a1d33b65a12a718324de7a1\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan Stoichkov\.android\build-cache\864e887a62041a1863afd267719c28e31d97e37e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a9493f008850469ed3fab9b28658919562882aed">
+        <dex dex="C:\Users\Ivan Stoichkov\Desktop\ReminderApp-master\app\build\intermediates\pre-dexed\debug\classes_c02c7e77d630e1b7e0e52d8dcb3c4b52b2f89cc5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan Stoichkov\.android\build-cache\c03bec5c2a28ccd2a5243b8c8aa31d4df448c2a2\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="aa23e4589287adb431ef59d6c78af79ab8885682">
+        <dex dex="C:\Users\Ivan Stoichkov\Desktop\ReminderApp-master\app\build\intermediates\pre-dexed\debug\classes_03cb1ff43a92f9c67bbb098001f0011404b855bd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan Stoichkov\.android\build-cache\18c09c6b17d1ac568af66419b52950460ffb68c9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6da05b7498da036b5b37c3beb861cd2060929dcd">
+        <dex dex="C:\Users\Ivan Stoichkov\Desktop\ReminderApp-master\app\build\intermediates\pre-dexed\debug\classes_b7a266941d64c4485c18ee2b6b8fd1aaf2aff40b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan Stoichkov\.android\build-cache\20d1cae58bcb0424f69dcbbfe735d8b09cc36b1a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4ef2d91da513c4d7e773ae438fe04d0e4c135957">
+        <dex dex="C:\Users\Ivan Stoichkov\Desktop\ReminderApp-master\app\build\intermediates\pre-dexed\debug\classes_653bf92e7bc018a3c5f8f0fea35c60e6d9d16721.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Ivan Stoichkov\AppData\Local\Android\Sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.0-alpha9\constraint-layout-solver-1.0.0-alpha9.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6a908fd0803cc5f65b007101002aec06dc7544da">
+        <dex dex="C:\Users\Ivan Stoichkov\Desktop\ReminderApp-master\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.0-alpha9_916dd8c4118626c436a3ea1e777a4bdd1088edec.jar" />
     </item>
 
 </items>

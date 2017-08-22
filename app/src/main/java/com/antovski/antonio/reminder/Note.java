@@ -82,6 +82,12 @@ public class Note implements Serializable, Comparable<Note> {
         return parseDate;
     }
 
+    public Date getDate1(){ return date;}
+
+    public long getTime(){
+        return date.getTime();
+    }
+
     public String getName() {
         return name;
     }

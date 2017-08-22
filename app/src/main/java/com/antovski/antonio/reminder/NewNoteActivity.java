@@ -9,6 +9,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class NewNoteActivity extends AppCompatActivity {
 
@@ -18,6 +19,8 @@ public class NewNoteActivity extends AppCompatActivity {
     Note note;
     double lat;
     double lng;
+
+    public Context getContext(){ return this.getContext(); }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -81,11 +84,13 @@ public class NewNoteActivity extends AppCompatActivity {
         btnPlace.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
                 note.setName(txtName.getText().toString().trim());
                 note.setDescription(txtDesc.getText().toString().trim());
 
                 String date = btnDate.getText().toString() + " " + btnTime.getText().toString();
-                if(!date.contains("DATE") || !date.contains("TIME")){
+
+                if(!date.contains("DATE") && !date.contains("TIME")){
                     note.setDate(date);
                 }
 

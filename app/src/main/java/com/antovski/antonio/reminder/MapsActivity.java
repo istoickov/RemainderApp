@@ -48,50 +48,46 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     }
 
     @Override
-    public void onMapReady(GoogleMap googleMap) {
+    public void onMapReady(final GoogleMap googleMap) {
         map = googleMap;
 
         if ((ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED)
-                && (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED)) {
+                || (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED)) {
 
             ActivityCompat.requestPermissions(this, new String[]{
                             Manifest.permission.ACCESS_FINE_LOCATION,
                             Manifest.permission.ACCESS_COARSE_LOCATION}, 1);
 
             if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED
-                    && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) == PackageManager.PERMISSION_GRANTED){
+                    || ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) == PackageManager.PERMISSION_GRANTED){
                 map.setMyLocationEnabled(true);
+                map.getUiSettings().setMyLocationButtonEnabled(true);
             }
         }else{
             map.setMyLocationEnabled(true);
-            map.getUiSettings().setMyLocationButtonEnabled(true); //ne raboti... kopcheto ne se pokazuva
+            map.getUiSettings().setMyLocationButtonEnabled(true);
         }
 
         map.setOnMapClickListener(new GoogleMap.OnMapClickListener() {
             @Override
             public void onMapClick(LatLng point) {
                 MarkerOptions markerOptions = new MarkerOptions();
-
                 markerOptions.position(point);
                 markerOptions.title(String.format(Locale.ENGLISH, "%.2f, %.2f", point.latitude, point.longitude));
 
                 map.clear();
 
                 clicked = point;
-
                 map.animateCamera(CameraUpdateFactory.newLatLngZoom(point, 13));
                 map.addMarker(markerOptions);
 
-                Toast.makeText(MapsActivity.this, "Place picked", Toast.LENGTH_SHORT).show();
+                note = (Note) getIntent().getSerializableExtra("Note");
+
+                note.setLat(clicked.latitude);
+                note.setLng(clicked.longitude);
 
                 Intent intent = new Intent(MapsActivity.this, NewNoteActivity.class);
-
-                if(note != null){
-                    note.setLat(clicked.latitude);
-                    note.setLng(clicked.longitude);
-                    intent.putExtra("Note", note);
-                }
-
+                intent.putExtra("Note", note);
                 startActivity(intent);
             }
         });

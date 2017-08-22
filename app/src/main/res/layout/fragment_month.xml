@@ -1,0 +1,22 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.antovski.antonio.reminder.MonthFragment">
+
+    <com.github.sundeepk.compactcalendarview.CompactCalendarView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/month"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        app:compactCalendarTargetHeight="450dp"
+        app:compactCalendarTextSize="17sp"
+        app:compactCalendarBackgroundColor="#ffffff"
+        app:compactCalendarTextColor="#0008ff"
+        app:compactCalendarCurrentSelectedDayBackgroundColor="#cbc2ff"
+        app:compactCalendarCurrentDayBackgroundColor="#ffea00"
+        app:compactCalendarMultiEventIndicatorColor="#0e105b"/>
+
+</FrameLayout>
