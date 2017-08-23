@@ -149,6 +149,7 @@ public class NewNoteActivity extends AppCompatActivity {
                 if(!date.contains("Date") && !date.contains("Time") && name.length() != 0  && desc.length() != 0){
                     try{
                         note.setName(name);
+                        note.setDescription(desc);
                         note.setDate(date);
                         note.setLat(lat);
                         note.setLng(lng);
