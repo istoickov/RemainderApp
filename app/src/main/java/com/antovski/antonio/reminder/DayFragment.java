@@ -3,6 +3,7 @@ package com.antovski.antonio.reminder;
 import android.app.Fragment;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.graphics.RectF;
 import android.net.Uri;
 import android.os.Bundle;
@@ -15,7 +16,6 @@ import com.alamkanak.weekview.MonthLoader;
 import com.alamkanak.weekview.WeekView;
 import com.alamkanak.weekview.WeekViewEvent;
 
-import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -60,6 +60,7 @@ public class DayFragment extends android.support.v4.app.Fragment{
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
+        this.setupWeekview();
     }
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -101,6 +102,7 @@ public class DayFragment extends android.support.v4.app.Fragment{
                         ++j;
                     }
 
+                    mWeekView.invalidate();
                     return events;
                 }
             });
@@ -132,7 +134,39 @@ public class DayFragment extends android.support.v4.app.Fragment{
                                 db.deleteNote(del);
 
                             db.close();
-                            setupWeekview();
+                            mWeekView.invalidate();
+                        }
+                    });
+
+                    builder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            return;
+                        }
+                    });
+
+                    AlertDialog dialog = builder.create();
+                    dialog.show();
+                }
+            });
+
+            mWeekView.setEmptyViewClickListener(new WeekView.EmptyViewClickListener() {
+                @Override
+                public void onEmptyViewClicked(final Calendar time) {
+                    AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
+
+                    builder.setTitle("Do you want to add new event?");
+
+                    builder.setPositiveButton("Add note", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            Date date = new Date();
+                            time.set(Calendar.MONTH, time.get(Calendar.MONTH)+1);
+                            date.setTime(time.getTime().getTime());
+
+                            Intent intent = new Intent(getActivity(), NewNoteActivity.class);
+                            intent.putExtra("dayClicked", date);
+                            startActivity(intent);
                         }
                     });
 

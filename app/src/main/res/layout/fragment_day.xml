@@ -19,7 +19,7 @@
         app:noOfVisibleDays="1"
         app:headerRowBackgroundColor="#ffefefef"
         app:dayBackgroundColor="#05000000"
-        app:todayBackgroundColor="#1848adff"
+        app:todayBackgroundColor="#FF3D46E4"
         app:headerColumnBackground="#ffffffff"/>
 
 </FrameLayout>

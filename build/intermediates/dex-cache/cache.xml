@@ -12,12 +12,30 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\Ivan Stoichkov\Desktop\github\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="eeba2d747f2696059bfb3eee73e07a11f725ac3a">
+        <dex dex="C:\Users\Ivan Stoichkov\Desktop\github\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_a4b697de79b43a2de019b78a06d3189c3c932558\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\Ivan Stoichkov\Desktop\ReminderApp-master\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
         <dex dex="C:\Users\Ivan Stoichkov\Desktop\ReminderApp-master\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_da0c1fbcd1fa1b2d043dbabd53979ab57d3b8a60\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ivan Stoichkov\Desktop\github\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\Ivan Stoichkov\Desktop\github\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_14c61b1e9e295b4f7430c93b861ffbd1c810cbe4\classes.dex" />
     </item>
     <item
         is-multidex="false"

@@ -15,9 +15,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/btnCancel"
-        android:layout_marginBottom="79dp"
+        android:layout_marginBottom="64dp"
+        android:backgroundTint="#000dff"
+        android:textColor="#ffffff"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
     <Button
@@ -27,7 +28,9 @@
         android:id="@+id/btnAdd"
         android:layout_above="@+id/btnCancel"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:backgroundTint="#000dff"
+        android:textColor="#ffffff" />
 
     <EditText
         android:layout_width="wrap_content"
@@ -39,7 +42,8 @@
         android:layout_alignBaseline="@+id/textView4"
         android:layout_alignBottom="@+id/textView4"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:textColor="#000dff"/>
 
     <EditText
         android:layout_width="wrap_content"
@@ -50,7 +54,8 @@
         android:hint="Description..."
         android:layout_centerVertical="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:textColor="#000dff" />
 
     <TextView
         android:text="Name:"
@@ -60,7 +65,8 @@
         android:id="@+id/textView4"
         android:layout_alignParentTop="true"
         android:layout_alignLeft="@+id/textView6"
-        android:layout_alignStart="@+id/textView6" />
+        android:layout_alignStart="@+id/textView6"
+        android:textColor="#000dff" />
 
     <TextView
         android:text="Description:"
@@ -71,7 +77,8 @@
         android:layout_marginStart="20dp"
         android:layout_centerVertical="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:textColor="#000dff" />
 
     <TextView
         android:text="Date:"
@@ -81,7 +88,8 @@
         android:id="@+id/textView7"
         android:layout_below="@+id/txtNoteName"
         android:layout_alignLeft="@+id/textView4"
-        android:layout_alignStart="@+id/textView4" />
+        android:layout_alignStart="@+id/textView4"
+        android:textColor="#000dff" />
 
     <Button
         android:text="Date"
@@ -90,7 +98,9 @@
         android:layout_below="@+id/txtNoteName"
         android:layout_alignLeft="@+id/txtNoteName"
         android:layout_alignStart="@+id/txtNoteName"
-        android:id="@+id/buttonDate" />
+        android:id="@+id/buttonDate"
+        android:backgroundTint="#000dff"
+        android:textColor="#ffffff" />
 
     <Button
         android:text="Time"
@@ -99,7 +109,9 @@
         android:layout_below="@+id/buttonDate"
         android:layout_alignLeft="@+id/txtNoteDescription"
         android:layout_alignStart="@+id/txtNoteDescription"
-        android:id="@+id/buttonTime" />
+        android:id="@+id/buttonTime"
+        android:backgroundTint="#000dff"
+        android:textColor="#ffffff" />
 
     <TextView
         android:text="Time:"
@@ -109,7 +121,8 @@
         android:layout_alignBaseline="@+id/buttonTime"
         android:layout_alignBottom="@+id/buttonTime"
         android:layout_alignLeft="@+id/textView7"
-        android:layout_alignStart="@+id/textView7" />
+        android:layout_alignStart="@+id/textView7"
+        android:textColor="#000dff" />
 
     <Button
         android:text="Pick place"
@@ -120,6 +133,8 @@
         android:layout_alignLeft="@+id/txtNoteDescription"
         android:layout_alignStart="@+id/txtNoteDescription"
         android:layout_alignRight="@+id/buttonTime"
-        android:layout_alignEnd="@+id/buttonTime" />
+        android:layout_alignEnd="@+id/buttonTime"
+        android:backgroundTint="#000dff"
+        android:textColor="#ffffff" />
 
 </RelativeLayout>

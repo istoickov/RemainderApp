@@ -31,10 +31,6 @@ public class MainActivity extends AppCompatActivity {
         IntentFilter mTime = new IntentFilter(Intent.ACTION_TIME_TICK);
         registerReceiver(myBroadcastReceiver, mTime);
 
-//        DBHandler db = new DBHandler(this);
-//        db.deleteAll();
-//        db.close();
-
         Button btnNewNote = (Button) findViewById(R.id.btnNewNote);
         btnNewNote.setOnClickListener(new View.OnClickListener() {
             @Override

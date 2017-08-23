@@ -11,6 +11,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import java.util.Calendar;
+import java.util.Date;
+
 public class NewNoteActivity extends AppCompatActivity {
 
     private static int NOTES_COUNT = 0;
@@ -52,10 +55,36 @@ public class NewNoteActivity extends AppCompatActivity {
             note = new Note();
         }
 
+        Intent intent = getIntent();
+
+        Calendar c = Calendar.getInstance();
+
+        if(intent.hasExtra("dayClicked") || intent.hasExtra("weekClicked") || intent.hasExtra("monthClicked")) {
+            Date clicked = new Date();
+            if (intent.hasExtra("dayClicked"))
+                clicked = (Date) getIntent().getSerializableExtra("dayClicked");
+            else if (intent.hasExtra("weekClicked"))
+                clicked = (Date) getIntent().getSerializableExtra("weekClicked");
+            else if (intent.hasExtra("monthClicked"))
+                clicked = (Date) getIntent().getSerializableExtra("monthClicked");
+
+            c.setTime(clicked);
+            String oldDate = c.get(Calendar.DAY_OF_MONTH) + "/" + c.get(Calendar.MONTH) + "/" + c.get(Calendar.YEAR);
+            String oldTime = String.format("%02d:%02d", c.get(Calendar.HOUR), c.get(Calendar.MINUTE));
+
+            btnDate.setText(oldDate);
+            btnTime.setText(oldTime);
+        }
+
         btnDate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 DialogFragment df = new DatePickerFragment(btnDate);
+
+                Bundle args = new Bundle();
+                args.putString("date", btnDate.getText().toString());
+                df.setArguments(args);
+
                 df.show(getSupportFragmentManager(), "datePicker");
             }
         });
@@ -64,6 +93,11 @@ public class NewNoteActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 DialogFragment df = new TimePickerFragment(btnTime);
+
+                Bundle args = new Bundle();
+                args.putString("time", btnTime.getText().toString());
+                df.setArguments(args);
+
                 df.show(getSupportFragmentManager(), "timePicker");
             }
         });
@@ -141,8 +175,20 @@ public class NewNoteActivity extends AppCompatActivity {
                     }
                 }
 
-                Intent intent = new Intent(NewNoteActivity.this, MyNotesActivity.class);
-                startActivity(intent);
+                Intent intent = getIntent();
+                if (intent.hasExtra("dayClicked")) {
+                    intent = new Intent(NewNoteActivity.this, DayFragment.class);
+                    startActivity(intent);
+                } else if (intent.hasExtra("weekClicked")){
+                    intent = new Intent(NewNoteActivity.this, WeekFragment.class);
+                    startActivity(intent);
+                }else if (intent.hasExtra("monthClicked")) {
+                    intent = new Intent(NewNoteActivity.this, MonthFragment.class);
+                    startActivity(intent);
+                }else {
+                    intent = new Intent(NewNoteActivity.this, MyNotesActivity.class);
+                    startActivity(intent);
+                }
             }
         });
 

@@ -40,7 +40,7 @@ import java.util.List;
  * Use the {@link WeekFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class WeekFragment extends android.support.v4.app.Fragment implements WeekView.EmptyViewClickListener {
+public class WeekFragment extends android.support.v4.app.Fragment {
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
 
@@ -109,6 +109,7 @@ public class WeekFragment extends android.support.v4.app.Fragment implements Wee
                         ++j;
                     }
 
+                    mWeekView.invalidate();
                     return events;
                 }
             });
@@ -140,7 +141,39 @@ public class WeekFragment extends android.support.v4.app.Fragment implements Wee
                                 db.deleteNote(del);
 
                             db.close();
-                            setupWeekview();
+                            mWeekView.invalidate();
+                        }
+                    });
+
+                    builder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            return;
+                        }
+                    });
+
+                    AlertDialog dialog = builder.create();
+                    dialog.show();
+                }
+            });
+
+            mWeekView.setEmptyViewClickListener(new WeekView.EmptyViewClickListener() {
+                @Override
+                public void onEmptyViewClicked(final Calendar time) {
+                    AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
+
+                    builder.setTitle("Do you want to add new event?");
+
+                    builder.setPositiveButton("Add note", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            Date date = new Date();
+                            time.set(Calendar.MONTH, time.get(Calendar.MONTH)+1);
+                            date.setTime(time.getTime().getTime());
+
+                            Intent intent = new Intent(getActivity(), NewNoteActivity.class);
+                            intent.putExtra("dayClicked", date);
+                            startActivity(intent);
                         }
                     });
 
@@ -166,11 +199,6 @@ public class WeekFragment extends android.support.v4.app.Fragment implements Wee
         }}
 
     public Context getThisContext(){ return this.getContext(); }
-
-    @Override
-    public void onEmptyViewClicked(Calendar time) {
-
-    }
 
     public interface OnFragmentInteractionListener {
         // TODO: Update argument type and name

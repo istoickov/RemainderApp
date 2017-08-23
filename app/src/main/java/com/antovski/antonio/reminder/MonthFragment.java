@@ -18,7 +18,9 @@ import android.widget.ListView;
 import com.github.sundeepk.compactcalendarview.CompactCalendarView;
 import com.github.sundeepk.compactcalendarview.domain.Event;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.Collections;
 import java.util.Date;
 
@@ -89,7 +91,7 @@ public class MonthFragment extends android.support.v4.app.Fragment{
 
         compactCalendarView.setListener(new CompactCalendarView.CompactCalendarViewListener() {
             @Override
-            public void onDayClick(final Date dateClicked) {
+            public void onDayClick(final Date date) {
                 AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
 
                 builder.setTitle("Do you want to add new event?");
@@ -98,7 +100,11 @@ public class MonthFragment extends android.support.v4.app.Fragment{
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         Intent intent = new Intent(getActivity(), NewNoteActivity.class);
-                        intent.putExtra("dateClicked", dateClicked);
+                        Calendar c = Calendar.getInstance();
+                        c.setTime(date);
+                        c.set(Calendar.MONTH, c.get(Calendar.MONTH)+1);
+                        Date date1 = c.getTime();
+                        intent.putExtra("monthClicked", date1);
                         startActivity(intent);
                     }
                 });
