@@ -10,6 +10,4 @@
         android:id="@+id/menuWeekView" />
     <item android:title="Month View"
         android:id="@+id/menuMonthView" />
-    <item android:title="Map View"
-        android:id="@+id/menuMapView" />
 </menu>

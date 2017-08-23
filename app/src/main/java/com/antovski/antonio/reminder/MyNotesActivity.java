@@ -50,9 +50,6 @@ public class MyNotesActivity extends AppCompatActivity implements ListFragment.O
             case R.id.menuWeekView:
                 weekFragment();
                 return true;
-            case R.id.menuMapView:
-                mapView();
-                return true;
         }
         return false;
     }

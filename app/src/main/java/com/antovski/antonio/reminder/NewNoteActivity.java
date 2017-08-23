@@ -142,9 +142,11 @@ public class NewNoteActivity extends AppCompatActivity {
                 String desc = txtDesc.getText().toString().trim();
                 String date = btnDate.getText().toString() + " " + btnTime.getText().toString();
 
+                boolean success = false;
+
                 DBHandler db = new DBHandler(context);
 
-                if(!date.contains("DATE") && !date.contains("TIME") && name.length() != 0  && desc.length() != 0){
+                if(!date.contains("Date") && !date.contains("Time") && name.length() != 0  && desc.length() != 0){
                     try{
                         note.setName(name);
                         note.setDate(date);
@@ -169,25 +171,33 @@ public class NewNoteActivity extends AppCompatActivity {
                             btnTime.setText("TIME");
                         }
 
+                        success = true;
+
                     }
                     catch (Exception err){
                         err.printStackTrace();
                     }
                 }
+                else{
+                    Toast.makeText(getApplicationContext(), "Please fill all fields.", Toast.LENGTH_LONG).show();
+                    return;
+                }
 
-                Intent intent = getIntent();
-                if (intent.hasExtra("dayClicked")) {
-                    intent = new Intent(NewNoteActivity.this, DayFragment.class);
-                    startActivity(intent);
-                } else if (intent.hasExtra("weekClicked")){
-                    intent = new Intent(NewNoteActivity.this, WeekFragment.class);
-                    startActivity(intent);
-                }else if (intent.hasExtra("monthClicked")) {
-                    intent = new Intent(NewNoteActivity.this, MonthFragment.class);
-                    startActivity(intent);
-                }else {
-                    intent = new Intent(NewNoteActivity.this, MyNotesActivity.class);
-                    startActivity(intent);
+                if(success){
+                    Intent intent = getIntent();
+                    if (intent.hasExtra("dayClicked")) {
+                        intent = new Intent(NewNoteActivity.this, DayFragment.class);
+                        startActivity(intent);
+                    } else if (intent.hasExtra("weekClicked")){
+                        intent = new Intent(NewNoteActivity.this, WeekFragment.class);
+                        startActivity(intent);
+                    }else if (intent.hasExtra("monthClicked")) {
+                        intent = new Intent(NewNoteActivity.this, MonthFragment.class);
+                        startActivity(intent);
+                    }else {
+                        intent = new Intent(NewNoteActivity.this, MyNotesActivity.class);
+                        startActivity(intent);
+                    }
                 }
             }
         });
