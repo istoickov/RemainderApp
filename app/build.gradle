@@ -26,7 +26,10 @@ dependencies {
     })
     compile 'com.github.sundeepk:compact-calendar-view:2.0.0'
     compile 'com.android.support:appcompat-v7:24.2.1'
-    compile 'com.google.android.gms:play-services:10.2.0'
+
+    compile 'com.google.android.gms:play-services-maps:8.1.0'
+    compile 'com.google.android.gms:play-services-plus:8.1.0'
+
     compile 'com.android.support:support-v4:24.2.1'
     compile 'com.android.support.constraint:constraint-layout:1.0.0-alpha9'
     compile 'com.github.sundeepk:compact-calendar-view:2.0.3-beta'

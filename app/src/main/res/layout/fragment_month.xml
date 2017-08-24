@@ -1,17 +1,19 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.antovski.antonio.reminder.MonthFragment">
 
     <com.github.sundeepk.compactcalendarview.CompactCalendarView
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:id="@+id/month"
+        android:layout_weight="2"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="0dp"
         android:paddingRight="10dp"
         android:paddingLeft="10dp"
-        app:compactCalendarTargetHeight="450dp"
+        app:compactCalendarTargetHeight="380dp"
         app:compactCalendarTextSize="17sp"
         app:compactCalendarBackgroundColor="#ffffff"
         app:compactCalendarTextColor="#0008ff"
@@ -20,4 +22,13 @@
         app:compactCalendarCurrentDayTextColor="#ffffff"
         app:compactCalendarMultiEventIndicatorColor="#0e105b"/>
 
-</FrameLayout>
+    <ListView
+        android:id="@+id/listMonth"
+        android:background="#ffffff"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"></ListView>
+
+</LinearLayout>

@@ -12,6 +12,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
@@ -23,6 +24,7 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Collections;
 import java.util.Date;
+import java.util.Iterator;
 
 import static com.google.android.gms.plus.PlusOneDummyView.TAG;
 
@@ -84,10 +86,47 @@ public class MonthFragment extends android.support.v4.app.Fragment{
         db.close();
 
         final CompactCalendarView compactCalendarView = (CompactCalendarView) view.findViewById(R.id.month);
+        final ListView listMonth = (ListView) view.findViewById(R.id.listMonth);
 
         for (Note n : notes) {
             compactCalendarView.addEvent(new Event(Color.GRAY, n.getTime(), n.getName()));
         }
+
+        listMonth.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, final int position, long id) {
+                AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
+
+                builder.setMessage(String.format("%s\n%.5f : %.5f", notes.get(position).getDescription(), notes.get(position).getLat(), notes.get(position).getLng()));
+                builder.setTitle(notes.get(position).getName());
+
+                builder.setPositiveButton("Edit Note", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        Intent intent = new Intent(getActivity(), NewNoteActivity.class);
+                        intent.putExtra("Note", notes.get(position));
+                        startActivity(intent);
+                    }
+                });
+
+                builder.setNegativeButton("Delete Note", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        DBHandler db = new DBHandler(getContext());
+                        db.deleteNote(notes.get(position));
+                        notes = (ArrayList<Note>) db.getAllNotes();
+                        ArrayAdapter<Note> adapter = new ArrayAdapter<Note>(getContext(), android.R.layout.simple_list_item_1, notes);
+                        ListView listMonth = (ListView) getView().findViewById(R.id.listMonth);
+                        listMonth.setAdapter(adapter);
+                        adapter.notifyDataSetChanged();
+                        db.close();
+                    }
+                });
+
+                AlertDialog dialog = builder.create();
+                dialog.show();
+            }
+        });
 
         compactCalendarView.setListener(new CompactCalendarView.CompactCalendarViewListener() {
             @Override
@@ -103,22 +142,54 @@ public class MonthFragment extends android.support.v4.app.Fragment{
                         Calendar c = Calendar.getInstance();
                         c.setTime(date);
                         c.set(Calendar.MONTH, c.get(Calendar.MONTH)+1);
-                        Date date1 = c.getTime();
-                        intent.putExtra("monthClicked", date1);
+
+                        Calendar cal = Calendar.getInstance();
+
+                        c.set(Calendar.HOUR, cal.get(Calendar.HOUR));
+                        c.set(Calendar.MINUTE, cal.get(Calendar.MINUTE));
+
+                        Date d = c.getTime();
+                        intent.putExtra("monthClicked", d);
                         startActivity(intent);
+                    }
+                });
+
+                builder.setNeutralButton("View notes", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        DBHandler db = new DBHandler(getContext());
+                        notes = (ArrayList<Note>) db.getAllNotes();
+
+                        SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+                        String str_date = sdf.format(date);
+
+                        Iterator<Note> iterator = notes.iterator();
+                        while(iterator.hasNext()) {
+                            if (!iterator.next().getDate().toString().split(" ")[0].trim().equals(str_date))
+                                iterator.remove();
+                        }
+
+                        ArrayAdapter<Note> adapter = new ArrayAdapter<Note>(getContext(), android.R.layout.simple_list_item_1, notes);
+                        ListView listMonth = (ListView) getView().findViewById(R.id.listMonth);
+                        listMonth.setAdapter(adapter);
+                        adapter.notifyDataSetChanged();
+
+                        db.close();
                     }
                 });
 
                 builder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-                        return;
+                    return;
                     }
                 });
 
                 AlertDialog dialog = builder.create();
                 dialog.show();
             }
+
+
 
             @Override
             public void onMonthScroll(Date firstDayOfNewMonth) {
