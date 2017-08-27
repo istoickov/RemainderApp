@@ -145,7 +145,7 @@ public class MonthFragment extends android.support.v4.app.Fragment{
 
                         Calendar cal = Calendar.getInstance();
 
-                        c.set(Calendar.HOUR, cal.get(Calendar.HOUR));
+                        c.set(Calendar.HOUR_OF_DAY, cal.get(Calendar.HOUR_OF_DAY));
                         c.set(Calendar.MINUTE, cal.get(Calendar.MINUTE));
 
                         Date d = c.getTime();

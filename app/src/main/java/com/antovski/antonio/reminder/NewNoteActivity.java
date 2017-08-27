@@ -70,7 +70,7 @@ public class NewNoteActivity extends AppCompatActivity {
 
             c.setTime(clicked);
             String oldDate = c.get(Calendar.DAY_OF_MONTH) + "/" + c.get(Calendar.MONTH) + "/" + c.get(Calendar.YEAR);
-            String oldTime = String.format("%02d:%02d", c.get(Calendar.HOUR), c.get(Calendar.MINUTE));
+            String oldTime = String.format("%02d:%02d", c.get(Calendar.HOUR_OF_DAY), c.get(Calendar.MINUTE));
 
             btnDate.setText(oldDate);
             btnTime.setText(oldTime);
