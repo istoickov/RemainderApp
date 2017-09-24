@@ -95,7 +95,7 @@ public class DayFragment extends android.support.v4.app.Fragment{
                         Calendar endTime = Calendar.getInstance();
                         endTime.setTime(date);
                         endTime.set(Calendar.MONTH, endTime.get(Calendar.MONTH));
-                        endTime.set(Calendar.HOUR, endTime.get(Calendar.HOUR)+1);
+                        endTime.set(Calendar.HOUR_OF_DAY, endTime.get(Calendar.HOUR_OF_DAY)+1);
 
                         WeekViewEvent event = new WeekViewEvent(1, n.getName(), startTime, endTime);
                         events.add(event);
